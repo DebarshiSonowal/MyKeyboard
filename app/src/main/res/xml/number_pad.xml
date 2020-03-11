@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="50dp"
+    android:background="@color/colorPrimaryDark">
+    >
+    <Row>
+        <Key android:codes="0x0985" android:keyLabel="অ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0986" android:keyLabel="আ"/>
+        <Key android:codes="0x0987" android:keyLabel="ই"/>
+        <Key android:codes="0x0988" android:keyLabel="ঈ"/>
+        <Key android:codes="0x0989" android:keyLabel="উ"/>
+        <Key android:codes="0x098A" android:keyLabel="ঊ"/>
+        <Key android:codes="0x098F" android:keyLabel="এ"/>
+        <Key android:codes="0x0990" android:keyLabel="ঐ"/>
+        <Key android:codes="0x0993" android:keyLabel="ও"/>
+        <Key android:codes="0x0994" android:keyLabel="ঔ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x0995" android:keyLabel="ক" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0996" android:keyLabel="খ"/>
+        <Key android:codes="0x0997" android:keyLabel="গ"/>
+        <Key android:codes="0x0998" android:keyLabel="ঘ"/>
+        <Key android:codes="0x0999" android:keyLabel="ঙ"/>
+        <Key android:codes="0x099A" android:keyLabel="চ"/>
+        <Key android:codes="0x099B" android:keyLabel="ছ"/>
+        <Key android:codes="0x099C" android:keyLabel="জ"/>
+        <Key android:codes="0x099D" android:keyLabel="ঝ"/>
+        <Key android:codes="0x099E" android:keyLabel="ঞ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x099F" android:keyLabel="ট" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09A0" android:keyLabel="ঠ"/>
+        <Key android:codes="0x09A1" android:keyLabel="ড"/>
+        <Key android:codes="0x09A2" android:keyLabel="ঢ"/>
+        <Key android:codes="0x09A3" android:keyLabel="ণ"/>
+        <Key android:codes="0x09A4" android:keyLabel="ত"/>
+        <Key android:codes="0x09A5" android:keyLabel="থ"/>
+        <Key android:codes="0x09A6" android:keyLabel="দ"/>
+        <Key android:codes="0x09A7" android:keyLabel="ধ"/>
+        <Key android:codes="0x09A8" android:keyLabel="ন" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+    <Key android:codes="0x09AA" android:keyLabel="প" android:keyEdgeFlags="left"/>
+    <Key android:codes="0x09AB" android:keyLabel="ফ"/>
+    <Key android:codes="0x09AC" android:keyLabel="ব"/>
+    <Key android:codes="0x09AD" android:keyLabel="ভ"/>
+    <Key android:codes="0x09AE" android:keyLabel="ম"/>
+    <Key android:codes="0x09AF" android:keyLabel="য"/>
+    <Key android:codes="0x09F0" android:keyLabel="ৰ"/>
+    <Key android:codes="0x09B2" android:keyLabel="ল"/>
+    <Key android:codes="0x09F1" android:keyLabel="ৱ"/>
+    <Key android:codes="0x09B6" android:keyLabel="শ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x09B7" android:keyLabel="ষ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09B8" android:keyLabel="স"/>
+        <Key android:codes="0x09B9" android:keyLabel="হ"/>
+        <Key android:codes="khyô" android:keyLabel="ক্ষ"/>
+        <Key android:codes="0x09DC" android:keyLabel="ড়"/>
+        <Key android:codes="0x09DD" android:keyLabel="ঢ়"/>
+        <Key android:codes="0x09DF" android:keyLabel="য়"/>
+        <Key android:codes="0x09CE" android:keyLabel="ৎ"/>
+        <Key android:codes="0x098B" android:keyLabel="ঋ"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/delete" android:keyWidth="30%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="173"  android:keyLabel="\? ১২৩" android:keyWidth="30%p" android:popupKeyboard="@xml/numbers" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel=","/>
+        <Key android:codes="0x0987" android:keyLabel="ই"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="80%p" android:isRepeatable="true"/>
+        <Key android:codes="0x0989" android:keyLabel="উ"/>
+        <Key android:codes="0x09BE" android:keyLabel="া"/>
+        <Key android:codes="0x09F7" android:keyLabel="৷" android:popupKeyboard="@xml/marks"/>
+        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="40%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+
+<!--    <Row>-->
+<!--        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="50" android:keyLabel="2"/>-->
+<!--        <Key android:codes="51" android:keyLabel="3"/>-->
+<!--        <Key android:codes="52" android:keyLabel="4"/>-->
+<!--        <Key android:codes="53" android:keyLabel="5"/>-->
+<!--        <Key android:codes="54" android:keyLabel="6"/>-->
+<!--        <Key android:codes="55" android:keyLabel="7"/>-->
+<!--        <Key android:codes="56" android:keyLabel="8"/>-->
+<!--        <Key android:codes="57" android:keyLabel="9"/>-->
+<!--        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+<!--    <Row>-->
+<!--        <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="119" android:keyLabel="w"/>-->
+<!--        <Key android:codes="101" android:keyLabel="e"/>-->
+<!--        <Key android:codes="114" android:keyLabel="r"/>-->
+<!--        <Key android:codes="116" android:keyLabel="t"/>-->
+<!--        <Key android:codes="121" android:keyLabel="y"/>-->
+<!--        <Key android:codes="117" android:keyLabel="u"/>-->
+<!--        <Key android:codes="105" android:keyLabel="i"/>-->
+<!--        <Key android:codes="111" android:keyLabel="o"/>-->
+<!--        <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+<!--    <Row>-->
+<!--        <Key android:codes="97" android:keyLabel="a" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="115" android:keyLabel="s"/>-->
+<!--        <Key android:codes="100" android:keyLabel="d"/>-->
+<!--        <Key android:codes="102" android:keyLabel="f"/>-->
+<!--        <Key android:codes="103" android:keyLabel="g"/>-->
+<!--        <Key android:codes="104" android:keyLabel="h"/>-->
+<!--        <Key android:codes="106" android:keyLabel="j"/>-->
+<!--        <Key android:codes="107" android:keyLabel="k"/>-->
+<!--        <Key android:codes="108" android:keyLabel="l"/>-->
+<!--        <Key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+<!--    <Row>-->
+<!--        <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="122" android:keyLabel="z"/>-->
+<!--        <Key android:codes="120" android:keyLabel="x"/>-->
+<!--        <Key android:codes="99" android:keyLabel="c"/>-->
+<!--        <Key android:codes="118" android:keyLabel="v"/>-->
+<!--        <Key android:codes="98" android:keyLabel="b"/>-->
+<!--        <Key android:codes="110" android:keyLabel="n"/>-->
+<!--        <Key android:codes="109" android:keyLabel="m"/>-->
+<!--        <Key android:codes="46" android:keyLabel="."/>-->
+<!--        <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+<!--    <Row android:rowEdgeFlags="bottom">-->
+<!--        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" android:keyEdgeFlags="left"/>-->
+<!--        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p"/>-->
+<!--        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true"/>-->
+<!--        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true"/>-->
+<!--        <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right"/>-->
+<!--    </Row>-->
+
+</Keyboard>

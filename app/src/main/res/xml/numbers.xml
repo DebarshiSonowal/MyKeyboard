@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="50dp">
+    <Row>
+        <Key android:codes="0x09E7" android:keyLabel="১" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09E8" android:keyLabel="২"/>
+        <Key android:codes="0x09E9" android:keyLabel="৩"/>
+        <Key android:codes="0x09EA" android:keyLabel="৪"/>
+        <Key android:codes="0x09EB" android:keyLabel="৫" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x09EC" android:keyLabel="৬" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09ED" android:keyLabel="৭"/>
+        <Key android:codes="0x09EE" android:keyLabel="৮"/>
+        <Key android:codes="0x09EF" android:keyLabel="৯"/>
+        <Key android:codes="0x09E6" android:keyLabel="০" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
