@@ -4,8 +4,8 @@
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
-    android:background="@color/colorPrimaryDark">
-    >
+    android:background="@color/colorPrimaryDark"
+    android:fontFamily="@font/assamese">
     <Row>
         <Key android:codes="0x0985" android:keyLabel="অ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x0986" android:keyLabel="আ"/>
