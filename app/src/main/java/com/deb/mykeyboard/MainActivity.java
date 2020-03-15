@@ -1,5 +1,6 @@
 package com.deb.mykeyboard;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.settings);
         }
     });
+        Typeface typeface = getResources().getFont(R.font.assamese);
+        mTextView.setTypeface(typeface);
     }
 
 }

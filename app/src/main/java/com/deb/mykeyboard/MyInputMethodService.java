@@ -20,6 +20,8 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     private  boolean caps = false;
     @Override
     public View onCreateInputView() {
+        Context context;
+
         kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view,null);
         mKeyboard = new Keyboard(this, R.xml.number_pad);
         kv.setKeyboard(mKeyboard);
