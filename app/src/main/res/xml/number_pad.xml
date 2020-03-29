@@ -4,8 +4,9 @@
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
-    android:background="@color/colorPrimaryDark"
-    android:fontFamily="@font/assamese"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/nirmala"
     android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="0x0985" android:keyLabel="অ" android:keyEdgeFlags="left"/>
@@ -20,27 +21,27 @@
         <Key android:codes="0x0994" android:keyLabel="ঔ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="0x0995" android:keyLabel="ক" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x0996" android:keyLabel="খ"/>
-        <Key android:codes="0x0997" android:keyLabel="গ"/>
+        <Key android:codes="0x0995" android:keyLabel="ক" android:popupKeyboard="@xml/ko" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0996" android:keyLabel="খ" android:popupKeyboard="@xml/kho"/>
+        <Key android:codes="0x0997" android:keyLabel="গ" android:popupKeyboard="@xml/ga"/>
         <Key android:codes="0x0998" android:keyLabel="ঘ"/>
-        <Key android:codes="0x0999" android:keyLabel="ঙ"/>
-        <Key android:codes="0x099A" android:keyLabel="চ"/>
+        <Key android:codes="0x0999" android:keyLabel="ঙ" android:popupKeyboard="@xml/unga"/>
+        <Key android:codes="0x099A" android:keyLabel="চ" android:popupKeyboard="@xml/prothomso" />
         <Key android:codes="0x099B" android:keyLabel="ছ"/>
-        <Key android:codes="0x099C" android:keyLabel="জ"/>
+        <Key android:codes="0x099C" android:keyLabel="জ" android:popupKeyboard="@xml/borgiya"/>
         <Key android:codes="0x099D" android:keyLabel="ঝ"/>
-        <Key android:codes="0x099E" android:keyLabel="ঞ" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x099E" android:keyLabel="ঞ"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="0x099F" android:keyLabel="ট" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x099F" android:keyLabel="ট" android:popupKeyboard="@xml/tau" android:keyEdgeFlags="left"/>
         <Key android:codes="0x09A0" android:keyLabel="ঠ"/>
-        <Key android:codes="0x09A1" android:keyLabel="ড"/>
+        <Key android:codes="0x09A1" android:keyLabel="ড" />
         <Key android:codes="0x09A2" android:keyLabel="ঢ"/>
-        <Key android:codes="0x09A3" android:keyLabel="ণ"/>
-        <Key android:codes="0x09A4" android:keyLabel="ত"/>
-        <Key android:codes="0x09A5" android:keyLabel="থ"/>
-        <Key android:codes="0x09A6" android:keyLabel="দ"/>
-        <Key android:codes="0x09A7" android:keyLabel="ধ"/>
+        <Key android:codes="0x09A3" android:keyLabel="ণ" />
+        <Key android:codes="0x09A4" android:keyLabel="ত" android:popupKeyboard="@xml/dontiyato"/>
+        <Key android:codes="0x09A5" android:keyLabel="থ" />
+        <Key android:codes="0x09A6" android:keyLabel="দ" android:popupKeyboard="@xml/dontyodo"/>
+        <Key android:codes="0x09A7" android:keyLabel="ধ" android:popupKeyboard="@xml/dontyodho"/>
         <Key android:codes="0x09A8" android:keyLabel="ন" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
@@ -59,7 +60,7 @@
         <Key android:codes="0x09B7" android:keyLabel="ষ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x09B8" android:keyLabel="স"/>
         <Key android:codes="0x09B9" android:keyLabel="হ"/>
-        <Key android:codes="khyô" android:keyLabel="ক্ষ"/>
+        <Key android:keyOutputText="ক্ষ" android:labelTextSize="20dp" android:keyLabel="ক্ষ"/>
         <Key android:codes="0x09DC" android:keyLabel="ড়"/>
         <Key android:codes="0x09DD" android:keyLabel="ঢ়"/>
         <Key android:codes="0x09DF" android:keyLabel="য়"/>

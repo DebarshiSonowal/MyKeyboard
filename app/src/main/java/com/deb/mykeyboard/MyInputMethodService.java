@@ -26,7 +26,7 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
         mKeyboard = new Keyboard(this, R.xml.number_pad);
         kv.setKeyboard(mKeyboard);
         kv.setOnKeyboardActionListener(this);
-        FontOverride.setDefaultFont(this, "DEFAULT","Fonts/GARHGAYA_WORK.TTF");
+        FontOverride.setDefaultFont(this, "DEFAULT","Fonts/nirmala.ttf");
         return kv;
 
     }
@@ -96,6 +96,9 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
 
     @Override
     public void onText(CharSequence charSequence) {
+        InputConnection ic = getCurrentInputConnection();
+        ic.commitText(charSequence,0);
+
 
     }
 

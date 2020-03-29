@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="20%p"
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="50dp"
-    android:fontFamily="@font/assamese"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/nirmala"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:codes="0x09E7" android:keyLabel="১" android:keyEdgeFlags="left"/>
+        <Key  android:codes="0x09E7" android:keyLabel="১" android:keyEdgeFlags="left"/>
         <Key android:codes="0x09E8" android:keyLabel="২"/>
         <Key android:codes="0x09E9" android:keyLabel="৩"/>
         <Key android:codes="0x09EA" android:keyLabel="৪"/>
