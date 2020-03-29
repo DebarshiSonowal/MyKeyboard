@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="50dp"
+    android:fontFamily="@font/assamese"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:codes="41" android:keyLabel=")" android:keyEdgeFlags="left"/>
+        <Key android:codes="123" android:keyLabel="{"/>
+        <Key android:codes="125" android:keyLabel="}"/>
+        <Key android:codes="91" android:keyLabel="["/>
+        <Key android:codes="93" android:keyLabel="]"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="61" android:keyLabel="="  android:keyEdgeFlags="left"/>
+        <Key android:codes="95" android:keyLabel="_"/>
+        <Key android:codes="94" android:keyLabel="^"/>
+        <Key android:codes="60" android:keyLabel="@string/greaterthan"/>
+        <Key android:codes="62" android:keyLabel=">" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

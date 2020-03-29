@@ -3,7 +3,9 @@
     android:keyWidth="20%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="50dp">
+    android:keyHeight="50dp"
+    android:fontFamily="@font/assamese"
+    android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="0x0983" android:keyLabel="ঃ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x0982" android:keyLabel="ং"/>
@@ -11,6 +13,7 @@
         <Key android:codes="0x09BF" android:keyLabel="ি"/>
         <Key android:codes="0x09C1" android:keyLabel="ু"/>
         <Key android:codes="0x09C2" android:keyLabel="ূ"/>
+        <Key android:codes="0x09BE" android:keyLabel="া"/>
         <Key android:codes="0x09C3" android:keyLabel="ৃ"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
@@ -20,7 +23,6 @@
         <Key android:codes="0x09CC" android:keyLabel="ৌ"/>
         <Key android:codes="0x09CD" android:keyLabel="্"/>
         <Key android:codes="0x09CE" android:keyLabel="ৎ"/>
-        <Key android:codes="0x09FD" android:keyLabel="৽"/>
-        <Key android:codes="0x09CO" android:keyLabel="ী" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x09C0" android:keyLabel="ী" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

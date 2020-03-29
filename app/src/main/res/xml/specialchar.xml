@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="50dp"
+    android:fontFamily="@font/assamese"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:codes="38" android:keyLabel="\&amp;" android:keyEdgeFlags="left"/>
+        <Key android:codes="37" android:keyLabel="%"/>
+        <Key android:codes="43" android:keyLabel="+"/>
+        <Key android:codes="34" android:keyLabel="@string/inverted"/>
+        <Key android:codes="45" android:keyLabel="-"/>
+        <Key android:codes="58" android:keyLabel=":"/>
+        <Key android:codes="64" android:keyLabel="\@" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="59" android:keyLabel=";" android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/"/>
+        <Key android:codes="35" android:keyLabel="#"/>
+        <Key android:codes="33" android:keyLabel="!"/>
+        <Key android:codes="44" android:keyLabel=","/>
+        <Key android:codes="92" android:keyLabel="/"/>
+        <Key android:codes="63" android:keyLabel="\?"/>
+        <Key android:codes="0x09E6" android:keyLabel="'" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

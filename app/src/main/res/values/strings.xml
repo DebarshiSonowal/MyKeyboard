@@ -2,4 +2,6 @@
     <string name="app_name">MyKeyboard</string>
     <string name="settings">Settings</string>
     <string name="sound_on_keypress">Sound on keypress</string>
+    <string name="inverted">"</string>
+    <string name="greaterthan"><![CDATA[<]]></string>
 </resources>

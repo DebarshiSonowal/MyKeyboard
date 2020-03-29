@@ -26,13 +26,9 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
         mKeyboard = new Keyboard(this, R.xml.number_pad);
         kv.setKeyboard(mKeyboard);
         kv.setOnKeyboardActionListener(this);
+        FontOverride.setDefaultFont(this, "DEFAULT","Fonts/GARHGAYA_WORK.TTF");
         return kv;
 
-//        @SuppressLint("InflateParams") KeyboardView keyboardView = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view, null);
-//        Keyboard keyboard = new Keyboard(this, R.xml.number_pad);
-//        keyboardView.setKeyboard(keyboard);
-//        keyboardView.setOnKeyboardActionListener(this);
-//        return keyboardView;
     }
 
     private void playClick(int keyCode){
@@ -95,25 +91,7 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                 }
                 ic.commitText(String.valueOf(code),1);
         }
-//        InputConnection inputConnection = getCurrentInputConnection();
-//
-//        if (inputConnection != null) {
-//            switch(primatyCode) {
-//                case Keyboard.KEYCODE_DELETE :
-//                    CharSequence selectedText = inputConnection.getSelectedText(0);
-//
-//                    if (TextUtils.isEmpty(selectedText)) {
-//                        inputConnection.deleteSurroundingText(1, 0);
-//                    } else {
-//                        inputConnection.commitText("", 1);
-//                    }
-//
-//                    break;
-//                default :
-//                    char code = (char) primatyCode;
-//                    inputConnection.commitText(String.valueOf(code), 1);
-//            }
-//        }
+
     }
 
     @Override

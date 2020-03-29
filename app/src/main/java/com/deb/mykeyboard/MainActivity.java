@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FontOverride mFontsOverride = null;
-        mFontsOverride.setDefaultFont(this, "DEFAULT","Fonts/GARHGAYA_WORK.TTF");
+        FontOverride.setDefaultFont(this, "DEFAULT","Fonts/GARHGAYA_WORK.TTF");
     mTextView = findViewById(R.id.text2);
     mButton = findViewById(R.id.button2);
     mButton.setOnClickListener(new View.OnClickListener() {
