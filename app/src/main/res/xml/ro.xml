@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:keyOutputText="ৰ্ক" android:keyLabel="ৰ্ক" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ৰ্খ" android:keyLabel="ৰ্খ"/>
+        <Key android:keyOutputText="ৰ্গ" android:keyLabel="ৰ্গ"/>
+        <Key android:keyOutputText="ৰ্চ" android:keyLabel="ৰ্চ"/>
+        <Key android:keyOutputText="ৰ্ট" android:keyLabel="ৰ্ট"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ৰ্ণ" android:keyLabel="ৰ্ণ"  android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ৰ্ত" android:keyLabel="ৰ্ত"/>
+        <Key android:keyOutputText="ৰ্থ" android:keyLabel="ৰ্থ"/>
+        <Key android:keyOutputText="ৰ্দ" android:keyLabel="ৰ্দ"/>
+        <Key android:keyOutputText="ৰ্ধ" android:keyLabel="ৰ্ধ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ৰ্ন" android:keyLabel="ৰ্ন" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ৰ্প" android:keyLabel="ৰ্প"/>
+        <Key android:keyOutputText="ৰ্ফ" android:keyLabel="ৰ্ফ"/>
+        <Key android:keyOutputText="ৰ্ব" android:keyLabel="ৰ্ব"/>
+        <Key android:keyOutputText="ৰ্ম" android:keyLabel="ৰ্ম"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ৰ্য" android:keyLabel="ৰ্য"  android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ৰ্ল" android:keyLabel="ৰ্ল"/>
+        <Key android:keyOutputText="ৰ্শ" android:keyLabel="ৰ্শ"/>
+        <Key android:keyOutputText="ৰ্ষ" android:keyLabel="ৰ্ষ"/>
+        <Key android:keyOutputText="ৰ্ৱ" android:keyLabel="ৰ্ৱ" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

@@ -6,15 +6,16 @@
     android:keyHeight="60dp"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="জ্জ" android:keyLabel="জ্জ" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="জ্ঞ" android:keyLabel="জ্ঞ"/>
-        <Key android:keyOutputText="জ্ব" android:keyLabel="জ্ব"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf6001" android:keyIcon="@drawable/ja1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf6003" android:keyIcon="@drawable/ja3" android:keyWidth="30%p"/>
+        <Key android:codes="0xf6004" android:keyIcon="@drawable/ja4" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="জ্য়" android:keyLabel="জ্য়"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="জ্ৰ" android:keyLabel="জ্ৰ" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf6006" android:keyIcon="@drawable/ja6" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf6002" android:keyIcon="@drawable/ja2" android:keyWidth="30%p"/>
+        <Key android:codes="0xf6005" android:keyIcon="@drawable/ja5" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

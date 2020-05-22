@@ -3,7 +3,7 @@
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="38" android:keyLabel="\&amp;" android:keyEdgeFlags="left"/>

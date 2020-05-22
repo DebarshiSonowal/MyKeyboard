@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:codes="0xf7001" android:keyIcon="@drawable/mudhonyada1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf7002" android:keyIcon="@drawable/mudhonyada2" android:keyWidth="30%p"/>
+        <Key android:codes="0xf7003" android:keyIcon="@drawable/mudhonyada3" android:keyWidth="30%p"/>
+        <Key android:codes="0xf7004" android:keyIcon="@drawable/mudhonyada4" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

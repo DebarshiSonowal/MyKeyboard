@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:keyOutputText="ম্ন" android:keyLabel="ম্ন" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ম্ফ" android:keyLabel="ম্ফ"/>
+        <Key android:keyOutputText="ম্প" android:keyLabel="ম্প"/>
+        <Key android:keyOutputText="ম্ব" android:keyLabel="ম্ব"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="ম্য়" android:keyLabel="ম্য়"  android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="ম্ৰ" android:keyLabel="ম্ৰ"/>
+        <Key android:keyOutputText="ম্ল" android:keyLabel="ম্ল" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

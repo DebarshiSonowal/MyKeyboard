@@ -6,18 +6,17 @@
     android:keyHeight="60dp"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="ত্ত" android:keyLabel="ত্ত" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ত্থ" android:keyLabel="ত্থ"/>
-        <Key android:keyOutputText="ত্ন" android:keyLabel="ত্ন"/>
-        <Key android:keyOutputText="ত্ৱ" android:keyLabel="ত্ৱ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf5001" android:keyIcon="@drawable/ta1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf5002" android:keyIcon="@drawable/ta2" android:keyWidth="30%p"/>
+        <Key android:codes="0xf5003"  android:keyIcon="@drawable/ta3" android:keyWidth="30%p"/>
+        <Key android:codes="0xf5006" android:keyIcon="@drawable/ta6" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="ত্ম" android:keyLabel="ত্ম"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ত্য়" android:keyLabel="ত্য়"/>
-        <Key android:keyOutputText="ত্ৰ" android:keyLabel="ত্ৰ"/>
-        <Key android:keyOutputText="ত্ব" android:keyLabel="ত্ব" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf5004"  android:keyIcon="@drawable/ta4" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf5005"  android:keyIcon="@drawable/ta5" android:keyWidth="30%p"/>
+        <Key android:codes="0xf5007" android:keyIcon="@drawable/ta7" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

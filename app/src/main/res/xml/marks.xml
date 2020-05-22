@@ -4,25 +4,26 @@
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:codes="0x0983" android:keyLabel="ঃ" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x0982" android:keyLabel="ং"/>
-        <Key android:codes="0x0981" android:keyLabel="ঁ"/>
-        <Key android:codes="0x09BF" android:keyLabel="ি"/>
-        <Key android:codes="0x09C1" android:keyLabel="ু"/>
-        <Key android:codes="0x09C2" android:keyLabel="ূ"/>
-        <Key android:codes="0x09BE" android:keyLabel="া"/>
-        <Key android:codes="0x09C3" android:keyLabel="ৃ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="38" android:keyLabel="&amp;" android:keyEdgeFlags="left"/>
+        <Key android:codes="37" android:keyLabel="%"/>
+        <Key android:codes="43" android:keyLabel="+"/>
+        <Key android:codes="34" android:keyLabel="@string/inverted"/>
+        <Key android:codes="45" android:keyLabel="-"/>
+        <Key android:codes="58" android:keyLabel=":"/>
+        <Key android:codes="44" android:keyLabel="'"/>
+        <Key android:codes="64" android:keyLabel="\@"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="0x09C7" android:keyLabel="ে"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0x09C8" android:keyLabel="ৈ"/>
-        <Key android:codes="0x09CB" android:keyLabel="ো"/>
-        <Key android:codes="0x09CC" android:keyLabel="ৌ"/>
-        <Key android:codes="0x09CD" android:keyLabel="্"/>
-        <Key android:codes="0x09CE" android:keyLabel="ৎ"/>
-        <Key android:codes="0x09C0" android:keyLabel="ী" android:keyEdgeFlags="right"/>
+        <Key android:codes="59" android:keyLabel=";"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/"/>
+        <Key android:codes="40" android:keyLabel="("/>
+        <Key android:codes="41" android:keyLabel=")"/>
+        <Key android:codes="35" android:keyLabel="#"/>
+        <Key android:codes="33" android:keyLabel="!"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="63" android:keyLabel="\?" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

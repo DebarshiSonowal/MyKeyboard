@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep class com.wooplr.spotlight.** { *; }
+-keep interface com.wooplr.spotlight.**
+-keep enum com.wooplr.spotlight.**

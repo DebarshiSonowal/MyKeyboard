@@ -4,53 +4,118 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#F8FAFA"
     tools:context="com.deb.mykeyboard.MainActivity">
 
     <EditText
         android:id="@+id/text2"
-        android:layout_width="306dp"
-        android:layout_height="48dp"
+        android:layout_width="339dp"
+        android:layout_height="198dp"
         android:autofillHints=""
-        android:background="#212121"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:background="#D1D2CD"
+        android:fontFamily="@font/regular"
+        android:gravity="clip_vertical"
+        android:textColor="#0A5688"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.336" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="219dp"
-        android:layout_height="48dp"
+        android:layout_width="318dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/regular"
         android:gravity="center"
-        android:text="MyKeyboard"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:fontFamily="sans-serif-smallcaps"
+        android:text="গড়গঞা অসমীয়া "
+        android:textColor="#54B0F3"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintVertical_bias="0.024" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="112dp"
-        android:layout_height="46dp"
-        android:background="#2B2A2A"
-        android:fadingEdge="vertical"
-        android:text="Button"
-        android:textColor="#FFFFFF"
+    <ImageButton
+        android:id="@+id/savebtn"
+        android:layout_width="62dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="Save"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        android:tint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.605"
+        app:srcCompat="@drawable/ic_multimedia" />
+
+    <ImageButton
+        android:id="@+id/cpybtn"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        app:srcCompat="@drawable/ic_file" />
+
+    <ImageButton
+        android:id="@+id/listbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/ic_files_and_folders" />
+
+    <ImageButton
+        android:id="@+id/Setting"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:background="#00FFFFFF"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964"
+        app:srcCompat="@drawable/ic_tools_and_utensils" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:elevation="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/ic_document" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

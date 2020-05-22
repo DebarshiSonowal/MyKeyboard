@@ -6,7 +6,7 @@
     android:keyHeight="60dp"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/regular"
     android:theme="@style/AppTheme">
     <Row>
         <Key android:keyOutputText="ঙ্ক" android:keyLabel="ঙ্ক" android:keyEdgeFlags="left"/>

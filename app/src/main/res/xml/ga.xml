@@ -6,18 +6,17 @@
     android:keyHeight="60dp"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="গ্ধ" android:keyLabel="গ্ধ" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="গ্ন" android:keyLabel="গ্ন"/>
-        <Key android:keyOutputText="গ্ৱ" android:keyLabel="গ্ৱ"/>
-        <Key android:keyOutputText="গ্য়" android:keyLabel="গ্য়"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf2004" android:keyIcon="@drawable/go4"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf2005" android:keyIcon="@drawable/go5"  android:keyWidth="30%p"/>
+       <Key android:codes="0xf2002" android:keyIcon="@drawable/go2"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf2006" android:keyIcon="@drawable/go6"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="গ্ৰ" android:keyLabel="গ্ৰ"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="গ্ম" android:keyLabel="গ্ম"/>
-        <Key android:keyOutputText="গ্ল" android:keyLabel="গ্ল"/>
-        <Key android:keyOutputText="গ্উ" android:keyLabel="গ্উ" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf2003" android:keyIcon="@drawable/go3"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf2007" android:keyIcon="@drawable/go7"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf2001" android:keyIcon="@drawable/go1"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

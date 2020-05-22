@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:keyOutputText="প্ত" android:keyLabel="প্ত" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="প্ন" android:keyLabel="প্ন"/>
+        <Key android:keyOutputText="প্য়" android:keyLabel="প্য়"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:keyOutputText="প্র" android:keyLabel="প্র"  android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="প্ল" android:keyLabel="প্ল" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

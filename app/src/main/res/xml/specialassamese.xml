@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="50dp"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:codes="0x09BF" android:keyLabel="ি" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09CO" android:keyLabel="ী"/>
+        <Key android:codes="0x09C7" android:keyLabel="ে"/>
+        <Key android:codes="0x09C8" android:keyLabel="ৈ"/>
+        <Key android:codes="0x09CB" android:keyLabel="ো" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0x09CC" android:keyLabel="ৌ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x09C1" android:keyLabel="ু"/>
+        <Key android:codes="0x09C2" android:keyLabel="ূ"/>
+        <Key android:codes="0x09C3" android:keyLabel="ৃ" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

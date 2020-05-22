@@ -6,11 +6,12 @@
     android:keyHeight="60dp"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
-    android:fontFamily="@font/nirmala"
+    android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
         <Key android:keyOutputText="খ্য়" android:keyLabel="খ্য়" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="খ্ৰ" android:keyLabel="খ্ৰ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf1001"  android:keyIcon="@drawable/kho1" android:keyWidth="30%p"/>
+        <Key android:codes="0xf1002"  android:keyIcon="@drawable/kho2" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
 
 </Keyboard>
