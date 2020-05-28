@@ -1,6 +1,7 @@
 package com.deb.mykeyboard;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,19 +10,23 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.LinearLayout;
+
+import com.shashank.sony.fancytoastlib.FancyToast;
 
 public class Noteactivity extends AppCompatActivity {
 SQLiteDatabase mDatabase;
 RecyclerView mRecyclerView;
 Adapter mAdapter;
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noteactivity);
         getWindow().setStatusBarColor(Color.parseColor("#E3E3E1"));
-        getWindow().setNavigationBarColor(Color.parseColor("#ECECE1"));
+        getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
 DatabaseHelper databaseHelper = new DatabaseHelper(this);
 mDatabase = databaseHelper.getWritableDatabase();
 mRecyclerView = findViewById(R.id.recycler);
@@ -40,6 +45,7 @@ mRecyclerView = findViewById(R.id.recycler);
            @Override
            public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                 removeItem((long) viewHolder.itemView.getTag());
+               FancyToast.makeText(Noteactivity.this,"Deleted",FancyToast.LENGTH_SHORT,FancyToast.WARNING,false).show();
            }
        }).attachToRecyclerView(mRecyclerView);
     }

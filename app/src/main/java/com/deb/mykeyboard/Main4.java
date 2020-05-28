@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bitvale.switcher.Switcher;
 import com.bitvale.switcher.SwitcherC;
+import com.shashank.sony.fancytoastlib.FancyToast;
 import com.wooplr.spotlight.utils.SpotlightSequence;
 
 public class Main4 extends AppCompatActivity {
@@ -33,7 +34,7 @@ public class Main4 extends AppCompatActivity {
         setContentView(R.layout.settings);
 //    sound = findViewById(R.id.soundswitch);
         getWindow().setStatusBarColor(Color.parseColor("#DBDFEA"));
-        getWindow().setNavigationBarColor(Color.parseColor("#DBDFEA"));
+        getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
     dev = findViewById(R.id.dev);
     own = findViewById(R.id.own);
     mSwitcher = findViewById(R.id.switcher);
@@ -75,6 +76,7 @@ public class Main4 extends AppCompatActivity {
                 editor.putBoolean("switch",mSwitcher.isChecked());
                 Toast.makeText(Main4.this,mSwitcher.isChecked()+"1",Toast.LENGTH_SHORT).show();
                 editor.commit();
+                FancyToast.makeText(Main4.this,"Sound on",FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,R.drawable.on,false).show();
 
             }else{
                 mSwitcher.setChecked(true,true);
@@ -85,7 +87,7 @@ public class Main4 extends AppCompatActivity {
                 editor.putBoolean("switch",mSwitcher.isChecked());
                 Toast.makeText(Main4.this,mSwitcher.isChecked()+"",Toast.LENGTH_SHORT).show();
                 editor.commit();
-
+                FancyToast.makeText(Main4.this,"Sound off",FancyToast.LENGTH_SHORT,FancyToast.WARNING,R.drawable.off,false).show();
             }
         }
     });

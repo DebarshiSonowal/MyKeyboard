@@ -5,5 +5,7 @@
     android:keyHeight="50dp"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-
+<Row>
+    <Key android:codes="0x09B0" android:keyLabel="ৰ"/>
+</Row>
 </Keyboard>

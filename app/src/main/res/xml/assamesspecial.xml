@@ -11,8 +11,8 @@
     android:theme="@style/AppTheme"
     >
     <Row>
-        <Key android:codes="0x0985" android:keyLabel="ঁ" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x0986"  android:keyLabel="ঃ"/>
-        <Key android:codes="0x0987" android:keyLabel="ং" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x0981" android:keyLabel="ঁ" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0983"  android:keyLabel="ঃ"/>
+        <Key android:codes="0x0982" android:keyLabel="ং" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

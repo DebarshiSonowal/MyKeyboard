@@ -9,14 +9,16 @@
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="ম্ন" android:keyLabel="ম্ন" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ম্ফ" android:keyLabel="ম্ফ"/>
-        <Key android:keyOutputText="ম্প" android:keyLabel="ম্প"/>
-        <Key android:keyOutputText="ম্ব" android:keyLabel="ম্ব"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffc04" android:keyIcon="@drawable/ma4"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffc07" android:keyIcon="@drawable/ma7"  android:keyWidth="30%p"/>
+        <Key android:codes="0xffc06" android:keyIcon="@drawable/ma6"  android:keyWidth="30%p"/>
+        <Key android:codes="0xffc05" android:keyIcon="@drawable/ma5"  android:keyWidth="30%p"/>
+        <Key android:codes="0xffc02" android:keyIcon="@drawable/ma2"  android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="ম্য়" android:keyLabel="ম্য়"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ম্ৰ" android:keyLabel="ম্ৰ"/>
-        <Key android:keyOutputText="ম্ল" android:keyLabel="ম্ল" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffc08" android:keyIcon="@drawable/ma8"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffc01" android:keyIcon="@drawable/ma1"  android:keyWidth="30%p"/>
+        <Key android:codes="0xffc03" android:keyIcon="@drawable/ma3"  android:keyWidth="30%p"/>
+        <Key android:codes="0xffc09" android:keyIcon="@drawable/ma9"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

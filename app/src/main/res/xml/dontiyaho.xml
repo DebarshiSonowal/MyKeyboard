@@ -9,17 +9,19 @@
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="স্ক" android:keyLabel="স্ক" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="স্ত" android:keyLabel="স্ত"/>
-        <Key android:keyOutputText="স্ন" android:keyLabel="স্ন"/>
-        <Key android:keyOutputText="স্প" android:keyLabel="স্প"/>
-        <Key android:keyOutputText="স্ফ" android:keyLabel="স্ফ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffa02" android:keyIcon="@drawable/dontiyaha2" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffa005" android:keyIcon="@drawable/dontiyaha5" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa08" android:keyIcon="@drawable/dontiyaha8" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa09" android:keyIcon="@drawable/dontiyaha9" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa07" android:keyIcon="@drawable/dontiyaha7" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa10" android:keyIcon="@drawable/dontiyaha10" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="স্ব" android:keyLabel="স্ব"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="স্ম" android:keyLabel="স্ম"/>
-        <Key android:keyOutputText="স্য়" android:keyLabel="স্য়"/>
-        <Key android:keyOutputText="স্ৰ" android:keyLabel="স্ৰ"/>
-        <Key android:keyOutputText="স্ল" android:keyLabel="স্ল" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffa03" android:keyIcon="@drawable/dontiyaha3" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffa11" android:keyIcon="@drawable/dontiyaha11" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa06" android:keyIcon="@drawable/dontiyaha6" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa04" android:keyIcon="@drawable/dontiyaha4" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa01" android:keyIcon="@drawable/dontiyaha1" android:keyWidth="30%p"/>
+        <Key android:codes="0xffa12" android:keyIcon="@drawable/dontiyaha12" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

@@ -23,6 +23,9 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 
+import com.shashank.sony.fancytoastlib.FancyToast;
+import com.wooplr.spotlight.SpotlightView;
+import com.wooplr.spotlight.shape.Circle;
 import com.wooplr.spotlight.utils.SpotlightSequence;
 
 import java.text.SimpleDateFormat;
@@ -46,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements dialogpopup.Dialo
 
     SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy h:mm a", Locale.getDefault());
     Boolean start;
-    int i1;
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements dialogpopup.Dialo
         setContentView(R.layout.activity_main);
         loadData();
         getWindow().setStatusBarColor(Color.parseColor("#DBDFEA"));
-        getWindow().setNavigationBarColor(Color.parseColor("#DBDFEA"));
+        getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
         DatabaseHelper mDatabaseHelper = new DatabaseHelper(this);
         mDatabase = mDatabaseHelper.getWritableDatabase();
     mEditText = findViewById(R.id.text2);
@@ -87,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements dialogpopup.Dialo
             ClipboardManager manager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
             ClipData clipData = ClipData.newPlainText("practice",mEditText.getText());
             manager.setPrimaryClip(clipData);
+            FancyToast.makeText(MainActivity.this,"Copied",FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,R.drawable.ic_sheet,false).show();
         }
     });
     Setting.setOnClickListener(new View.OnClickListener() {
@@ -164,6 +167,7 @@ public class MainActivity extends AppCompatActivity implements dialogpopup.Dialo
         cv.put(Contract.NOTEPAD.COLUMN_TIME,sdf.format(new Date()));
         mDatabase.insert(Contract.NOTEPAD.TABLE_NAME,null,cv);
         mEditText.setText("");
+        FancyToast.makeText(this,"Saved",FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,R.drawable.ic_save,false).show();
     }
 }
 

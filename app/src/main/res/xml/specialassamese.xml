@@ -8,7 +8,7 @@
     android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="0x09BF" android:keyLabel="ি" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x09CO" android:keyLabel="ী"/>
+        <Key android:codes="0x09C0" android:keyLabel="ী"/>
         <Key android:codes="0x09C7" android:keyLabel="ে"/>
         <Key android:codes="0x09C8" android:keyLabel="ৈ"/>
         <Key android:codes="0x09CB" android:keyLabel="ো" android:keyEdgeFlags="right"/>

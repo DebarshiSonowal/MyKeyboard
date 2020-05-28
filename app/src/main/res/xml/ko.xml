@@ -13,14 +13,10 @@
         <Key android:codes="0xf0008" android:keyIcon="@drawable/ko8" android:keyWidth="30%p"/>
         <Key android:codes="0xf0003" android:keyIcon="@drawable/ko3" android:keyWidth="30%p"/>
         <Key android:codes="0xf0009" android:keyIcon="@drawable/ko9" android:keyWidth="30%p"/>
-        <Key android:codes="0xf0010"  android:keyIcon="@drawable/ko10" android:keyWidth="30%p"/>
-        <Key android:keyOutputText="ক্ৰু" android:keyLabel="ক্ৰু"/>
-        <Key android:keyOutputText="ক্ৱ" android:keyLabel="ক্ৱ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf0010"  android:keyIcon="@drawable/ko10" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="0xf0005" android:keyIcon="@drawable/ko5" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ক্য়" android:keyLabel="ক্য়"/>
-        <Key android:keyOutputText="ক্য" android:keyLabel="ক্য়"/>
         <Key android:codes="0xf0002" android:keyIcon="@drawable/ko2" android:keyWidth="30%p" />
         <Key android:codes="0xf0006"  android:keyIcon="@drawable/ko6" android:keyWidth="30%p"/>
         <Key android:codes="0xf0004"  android:keyIcon="@drawable/ko4" android:keyWidth="30%p" />

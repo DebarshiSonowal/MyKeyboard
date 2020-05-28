@@ -10,8 +10,8 @@
     android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="0xf8001" android:keyIcon="@drawable/mudhonyata1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ট্র" android:keyLabel="ট্র"/>
-        <Key android:keyOutputText="ট্ৰ" android:keyLabel="ট্ৰ"/>
-        <Key android:keyOutputText="ট্য়" android:keyLabel="ট্য়"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf8003" android:keyIcon="@drawable/mudhonyata3" android:keyWidth="30%p"/>
+        <Key android:codes="0xf8004" android:keyIcon="@drawable/mudhanyata4" android:keyWidth="30%p"/>
+        <Key android:codes="0xf8002" android:keyIcon="@drawable/mudhonyata2" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

@@ -1,0 +1,15 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="30%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:background="@color/colorPrimary"
+    android:keyBackground="@color/colorPrimaryDark"
+    android:fontFamily="@font/font1"
+    android:theme="@style/AppTheme">
+    <Row>
+        <Key android:codes="0xfa001" android:keyIcon="@drawable/nyo1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfa002" android:keyIcon="@drawable/nyo2" android:keyWidth="30%p"/>
+        <Key android:codes="0xfa003" android:keyIcon="@drawable/nyo3" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

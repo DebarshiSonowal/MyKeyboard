@@ -9,12 +9,13 @@
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="প্ত" android:keyLabel="প্ত" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="প্ন" android:keyLabel="প্ন"/>
-        <Key android:keyOutputText="প্য়" android:keyLabel="প্য়"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffe02" android:keyIcon="@drawable/pa2" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffe03" android:keyIcon="@drawable/pa3" android:keyWidth="30%p"/>
+        <Key android:codes="0xffe04" android:keyIcon="@drawable/pa4" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:keyOutputText="প্র" android:keyLabel="প্র"  android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="প্ল" android:keyLabel="প্ল" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffe06" android:keyIcon="@drawable/pa6" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffe01" android:keyIcon="@drawable/pa1" android:keyWidth="30%p"/>
+        <Key android:codes="0xffe05"  android:keyIcon="@drawable/pa5" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

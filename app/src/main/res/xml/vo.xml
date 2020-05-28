@@ -9,7 +9,7 @@
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="ভ্য়" android:keyLabel="ভ্য়" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ভ্র" android:keyLabel="ভ্র"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfc001" android:keyIcon="@drawable/bha1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfc002" android:keyIcon="@drawable/bha2" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

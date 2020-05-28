@@ -15,7 +15,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="409dp"
         android:layout_height="0dp"
-        app:cardBackgroundColor="#505050"
+        app:cardBackgroundColor="#EDD710"
         app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
@@ -31,25 +31,29 @@
 
             <TextView
                 android:id="@+id/titleview"
-                android:layout_width="295dp"
-                android:layout_height="35dp"
+                android:layout_width="306dp"
+                android:layout_height="39dp"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
-                android:textColor="#FFFFFF"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintHorizontal_bias="0.155"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.056" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/dateview"
                 android:layout_width="173dp"
                 android:layout_height="34dp"
+                android:fontFamily="@font/regular"
                 android:gravity="center"
-                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textColor="#000000"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

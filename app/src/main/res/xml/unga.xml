@@ -9,7 +9,7 @@
     android:fontFamily="@font/regular"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="ঙ্ক" android:keyLabel="ঙ্ক" android:keyEdgeFlags="left"/>
-        <Key android:keyOutputText="ঙ্গ" android:keyLabel="ঙ্গ"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf9001" android:keyIcon="@drawable/unga1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf9002" android:keyIcon="@drawable/unga2" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

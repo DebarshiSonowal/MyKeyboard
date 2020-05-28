@@ -9,8 +9,7 @@
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:keyOutputText="ঘ্য়" android:keyLabel="ঘ্য়" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf3003" android:keyIcon="@drawable/gha3"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf3003" android:keyIcon="@drawable/gha3"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xf3001"  android:keyIcon="@drawable/gha1"  android:keyWidth="30%p"/>
         <Key android:codes="0xf3002"  android:keyIcon="@drawable/gha2"  android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
