@@ -9,6 +9,7 @@ import android.media.AudioManager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
+import android.view.inputmethod.InputMethodManager;
 
 public class MyInputMethodService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
     private KeyboardView kv;
@@ -175,9 +176,8 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     public static final int talbiya8= 0xfff08;
     public static final int talbiya9= 0xfff09;
 
-
-
-
+    public static final int jyakar= 0xfaaaa001;
+    public static final int khyajya= 0xfafafafa;
 
     private Boolean volume;
     private  boolean caps = false;
@@ -245,10 +245,13 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     @Override
     public void onKey(int primatyCode, int[] keyCodes) {
         InputConnection ic = getCurrentInputConnection();
-
             playClick(primatyCode);
 //           s
             switch(primatyCode){
+                case 0xfffff9:
+                    InputMethodManager imeManager = (InputMethodManager) getApplicationContext().getSystemService(INPUT_METHOD_SERVICE);
+                    imeManager.showInputMethodPicker();
+                    break;
                 case Keyboard.KEYCODE_DELETE:
                     ic.deleteSurroundingText(1,0);
                     break;
@@ -519,7 +522,7 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                     ic.commitText("ন্ম",1);
                     break;
                 case na13:
-                    ic.commitText("ন্ৱ",1);
+                    ic.commitText("ন্ৰ",1);
                     break;
                 case dho1:
                     ic.commitText("স্ৰ",1);
@@ -582,7 +585,7 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                     ic.commitText("ল্ল",1);
                     break;
                 case ma1:
-                    ic.commitText("ম্ৰ",1);
+                    ic.commitText("ম্ব",1);
                     break;
                 case ma2:
                     ic.commitText("ম্ত",1);
@@ -676,6 +679,12 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                     break;
                 case talbiya9:
                     ic.commitText("শ্র",1);
+                    break;
+                case jyakar:
+                    ic.commitText("্য",1);
+                    break;
+                case khyajya:
+                    ic.commitText("খ্য",1);
                     break;
                 default:
                     char code = (char) primatyCode;

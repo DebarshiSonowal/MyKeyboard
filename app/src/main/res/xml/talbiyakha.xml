@@ -8,17 +8,18 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0xfff01" android:keyIcon="@drawable/talbiyakha1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xfff02" android:keyIcon="@drawable/talbiyakha2"  android:keyWidth="30%p"/>
         <Key android:codes="0xfff03" android:keyIcon="@drawable/talbiyakha3"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff09" android:keyIcon="@drawable/talbiyakha9"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff04" android:keyIcon="@drawable/talbiyakha4"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfff04" android:keyIcon="@drawable/talbiyakha4"  android:keyWidth="30%p" />
+        <Key android:codes="0xfff06" android:keyIcon="@drawable/talabiyakha6"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+
     </Row>
-    <Row>
+    <Row android:rowEdgeFlags="bottom">
         <Key android:codes="0xfff05" android:keyIcon="@drawable/talbiyakha5"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfff06" android:keyIcon="@drawable/talabiyakha6"  android:keyWidth="30%p"/>
+        <Key android:codes="0xfff07" android:keyIcon="@drawable/talbiyakha7"  android:keyWidth="30%p" />
         <Key android:codes="0xfff08" android:keyIcon="@drawable/talbiyakaha8"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff07" android:keyIcon="@drawable/talbiyakha7"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfff09" android:keyIcon="@drawable/talbiyakha9"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

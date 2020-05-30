@@ -11,8 +11,9 @@
     android:theme="@style/AppTheme"
     >
     <Row>
-        <Key android:codes="0x0981" android:keyLabel="ঁ" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x0983"  android:keyLabel="ঃ"/>
-        <Key android:codes="0x0982" android:keyLabel="ং" android:keyEdgeFlags="right"/>
+        <Key android:codes="0x0981" android:keyIcon="@drawable/chandrabindu" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0983"  android:keyIcon="@drawable/bisarga"/>
+        <Key android:codes="0x0982" android:keyIcon="@drawable/anusar" />
+        <Key android:codes="0xfffff9" android:keyIcon="@drawable/settings" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

@@ -5,6 +5,10 @@
     <string name="inverted">"</string>
     <string name="greaterthan"><![CDATA[<]]></string>
     <string name="k1">ক্ক</string>
-    <string name="Copyright">Copyright @ Abhijit Padun / May 2020 (abhijitpadun@gmail.com) \n "Garhgaya Assamese" Font Designed by Abhijit Padun \n
-                             "Garhgaya Assamese Typing App" developed by Debarshi Sonowal</string>
+    <string name="Copyright">Copyright © Abhijit Padun 2020 \n
+“Garhgaya Assamese” typeface designed by Abhijit Padun \n
+Typing App developed by Debarshi Sonowal \n
+        Icons made by Freepik from www.flaticon.com \n
+    Icons made by Roundicons from www.flaticon.com</string>
+    <string name="info">This Typing App renders ancient Assamese “Garhgaya” writing style as display typeface. It is an experimental project to bring back unique identity to Assamese script by recreating digital representation of ancient “Garhgaya” style.</string>
 </resources>

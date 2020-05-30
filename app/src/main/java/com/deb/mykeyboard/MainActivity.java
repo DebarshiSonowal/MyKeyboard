@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements dialogpopup.Dialo
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loadData();
-        getWindow().setStatusBarColor(Color.parseColor("#DBDFEA"));
+        getWindow().setStatusBarColor(Color.parseColor("#7678A5"));
         getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
         DatabaseHelper mDatabaseHelper = new DatabaseHelper(this);
         mDatabase = mDatabaseHelper.getWritableDatabase();

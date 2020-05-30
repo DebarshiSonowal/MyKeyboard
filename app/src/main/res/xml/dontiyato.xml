@@ -8,15 +8,15 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0xf5001" android:keyIcon="@drawable/ta1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xf5002" android:keyIcon="@drawable/ta2" android:keyWidth="30%p"/>
         <Key android:codes="0xf5003"  android:keyIcon="@drawable/ta3" android:keyWidth="30%p"/>
-        <Key android:codes="0xf5006" android:keyIcon="@drawable/ta6" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf5004"  android:keyIcon="@drawable/ta4" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
-    <Row>
-        <Key android:codes="0xf5004"  android:keyIcon="@drawable/ta4" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf5005"  android:keyIcon="@drawable/ta5" android:keyWidth="30%p"/>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0xf5005"  android:keyIcon="@drawable/ta5" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf5006" android:keyIcon="@drawable/ta6" android:keyWidth="30%p"  />
         <Key android:codes="0xf5007" android:keyIcon="@drawable/ta7" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +26,7 @@ public class Main4 extends AppCompatActivity {
     Switcher mSwitcher;
     TextView dev,own;
     Boolean volume;
+    ImageButton info;
     private static final String INTRO_CARD = "fab_intro";
     private static final String INTRO_CARD1 = "fab";
     private static final String INTRO_CARD2 = "fintro";
@@ -33,11 +35,20 @@ public class Main4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings);
 //    sound = findViewById(R.id.soundswitch);
-        getWindow().setStatusBarColor(Color.parseColor("#DBDFEA"));
+        getWindow().setStatusBarColor(Color.parseColor("#7678A5"));
         getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
     dev = findViewById(R.id.dev);
     own = findViewById(R.id.own);
     mSwitcher = findViewById(R.id.switcher);
+    info = findViewById(R.id.imageButton);
+    info.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("market://details?id=" + getPackageName()));
+            startActivity(i);
+        }
+    });
     dev.setOnClickListener(new View.OnClickListener() {
         @SuppressLint("IntentReset")
         @Override
@@ -55,7 +66,7 @@ public class Main4 extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent send = new Intent(Intent.ACTION_SENDTO);
-            String uriText = "mailto:" + Uri.encode("a.padun@cit.ac.in") +
+            String uriText = "mailto:" + Uri.encode("abhijitpadun@gmail.com") +
                     "?subject=" + Uri.encode(" ") +
                     "&body=" + Uri.encode("");
             Uri uri = Uri.parse(uriText);

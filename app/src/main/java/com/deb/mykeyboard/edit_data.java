@@ -34,7 +34,7 @@ Cursor mCursor;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_data);
-        getWindow().setStatusBarColor(Color.parseColor("#E3E3E1"));
+        getWindow().setStatusBarColor(Color.parseColor("#7678A5"));
         getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
         id = Integer.parseInt(getIntent().getStringExtra("id"));
         DatabaseHelper mDatabaseHelper = new DatabaseHelper(this);
@@ -73,16 +73,6 @@ Cursor mCursor;
         });
     }
     private Cursor getAllitems() {
-//        return mDatabase.query(
-//                Contract.NOTEPAD.TABLE_NAME,
-//                null,
-//                Contract.NOTEPAD._ID+" =?",
-//                new String [] {String.valueOf(id)},
-//                null,
-//                null,
-//                null,
-//                null
-//        );
         return mDatabase.rawQuery("SELECT * FROM "+Contract.NOTEPAD.TABLE_NAME+" WHERE "+id+" = "+Contract.NOTEPAD._ID+";",null);
 
     }

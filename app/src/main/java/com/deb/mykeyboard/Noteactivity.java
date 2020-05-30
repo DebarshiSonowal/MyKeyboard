@@ -25,7 +25,7 @@ Adapter mAdapter;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noteactivity);
-        getWindow().setStatusBarColor(Color.parseColor("#E3E3E1"));
+        getWindow().setStatusBarColor(Color.parseColor("#7678A5"));
         getWindow().setNavigationBarColor(Color.parseColor("#7678A5"));
 DatabaseHelper databaseHelper = new DatabaseHelper(this);
 mDatabase = databaseHelper.getWritableDatabase();

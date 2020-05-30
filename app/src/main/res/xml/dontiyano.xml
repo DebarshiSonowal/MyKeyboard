@@ -8,23 +8,22 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0xff001" android:keyIcon="@drawable/na1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xff002" android:keyIcon="@drawable/na2" android:keyWidth="30%p" />
         <Key android:codes="0xff003" android:keyIcon="@drawable/na3" android:keyWidth="30%p"/>
-        <Key android:codes="0xff013" android:keyIcon="@drawable/na13" android:keyWidth="30%p"/>
-        <Key android:codes="0xff008" android:keyIcon="@drawable/na8" android:keyWidth="30%p"/>
-        <Key android:codes="0xff007" android:keyIcon="@drawable/na7" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xff004" android:keyIcon="@drawable/na4" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
+        <Key android:codes="0xff005" android:keyIcon="@drawable/na5" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xff006" android:keyIcon="@drawable/na6" android:keyWidth="30%p"/>
+        <Key android:codes="0xff007" android:keyIcon="@drawable/na7" android:keyWidth="30%p" />
+        <Key android:codes="0xff008" android:keyIcon="@drawable/na8" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
         <Key android:codes="0xff010" android:keyIcon="@drawable/na10" android:keyWidth="30%p"   android:keyEdgeFlags="left"/>
         <Key android:codes="0xff011" android:keyIcon="@drawable/na11" android:keyWidth="30%p"/>
-        <Key android:codes="0xff006" android:keyIcon="@drawable/na6" android:keyWidth="30%p"/>
-        <Key android:codes="0xff002" android:keyIcon="@drawable/na2" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
-    </Row>
-    <Row>
-        <Key android:codes="0xff004" android:keyIcon="@drawable/na4" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xff005" android:keyIcon="@drawable/na5" android:keyWidth="30%p"/>
         <Key android:codes="0xff012" android:keyIcon="@drawable/na12" android:keyWidth="30%p"/>
-        <Key android:codes="0xff009" android:keyIcon="@drawable/na9" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xff013" android:keyIcon="@drawable/na13" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

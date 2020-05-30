@@ -9,17 +9,18 @@
     <Row>
         <Key android:codes="38" android:keyLabel="&amp;" android:keyEdgeFlags="left"/>
         <Key android:codes="34" android:keyIcon="@drawable/ic_dari_group_quotedouble_u_0022"/>
-        <Key android:codes="58" android:keyLabel=":"/>
-        <Key android:codes="46" android:keyLabel="."/>
-        <Key android:codes="39" android:keyLabel="'"/>
+        <Key android:codes="58" android:keyIcon="@drawable/colon"/>
+        <Key android:codes="46" android:keyIcon="@drawable/period"/>
+        <Key android:codes="92" android:keyIcon="@drawable/backslash"/>
+        <Key android:codes="39" android:keyIcon="@drawable/quotesingle"/>
         <Key android:codes="64" android:keyLabel="\@"  android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="59" android:keyLabel=";"  android:keyEdgeFlags="left"/>
-        <Key android:codes="40" android:keyLabel="("/>
-        <Key android:codes="41" android:keyLabel=")"/>
-        <Key android:codes="35" android:keyLabel="#"/>
-        <Key android:codes="33" android:keyLabel="!"/>
-        <Key android:codes="63" android:keyLabel="\?" android:keyEdgeFlags="right"/>
+        <Key android:codes="59" android:keyIcon="@drawable/semicolon" android:keyEdgeFlags="left"/>
+        <Key android:codes="40" android:keyIcon="@drawable/brackets1"/>
+        <Key android:codes="41" android:keyIcon="@drawable/brackets2"/>
+        <Key android:codes="35" android:keyIcon="@drawable/hashtag"/>
+        <Key android:codes="33" android:keyIcon="@drawable/exclam"/>
+        <Key android:codes="63" android:keyIcon="@drawable/questionmark" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

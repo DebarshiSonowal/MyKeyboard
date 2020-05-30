@@ -17,6 +17,7 @@
         <Key android:codes="0x09CC" android:keyLabel="ৌ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x09C1" android:keyLabel="ু"/>
         <Key android:codes="0x09C2" android:keyLabel="ূ"/>
+        <Key android:codes="0xfaaaa001" android:keyIcon="@drawable/jyakar"/>
         <Key android:codes="0x09C3" android:keyLabel="ৃ" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

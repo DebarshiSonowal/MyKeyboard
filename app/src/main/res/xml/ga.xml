@@ -8,15 +8,16 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
-        <Key android:codes="0xf2004" android:keyIcon="@drawable/go4"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf2005" android:keyIcon="@drawable/go5"  android:keyWidth="30%p"/>
-       <Key android:codes="0xf2002" android:keyIcon="@drawable/go2"  android:keyWidth="30%p"/>
-        <Key android:codes="0xf2006" android:keyIcon="@drawable/go6"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="0xf2001" android:keyIcon="@drawable/go1"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf2002" android:keyIcon="@drawable/go2"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf2008" android:keyIcon="@drawable/gada"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf2003" android:keyIcon="@drawable/go3"  android:keyWidth="30%p" android:keyEdgeFlags="right" />
     </Row>
-    <Row>
-        <Key android:codes="0xf2003" android:keyIcon="@drawable/go3"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0xf2004" android:keyIcon="@drawable/go4"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xf2007" android:keyIcon="@drawable/go7"  android:keyWidth="30%p"/>
-        <Key android:codes="0xf2001" android:keyIcon="@drawable/go1"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf2006" android:keyIcon="@drawable/go6"  android:keyWidth="30%p" />
+        <Key android:codes="0xf2007" android:keyIcon="@drawable/go7"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

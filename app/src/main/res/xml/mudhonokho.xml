@@ -8,16 +8,16 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
-        <Key android:codes="0xffd03" android:keyIcon="@drawable/mudhanyakha3" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xffd04" android:keyIcon="@drawable/mudhanyakha4" android:keyWidth="30%p"/>
-        <Key android:codes="0xffd01" android:keyIcon="@drawable/mudhanyakha1" android:keyWidth="30%p"/>
-        <Key android:codes="0xffd05" android:keyIcon="@drawable/mudhanyakha5" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
-    </Row>
-    <Row>
-        <Key android:codes="0xffd06" android:keyIcon="@drawable/mudhanyakha6" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xffd08" android:keyIcon="@drawable/mudhanyakha8" android:keyWidth="30%p"/>
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="0xffd01" android:keyIcon="@drawable/mudhanyakha1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xffd02" android:keyIcon="@drawable/mudhanyakha2" android:keyWidth="30%p"/>
-        <Key android:codes="0xffd07" android:keyIcon="@drawable/mudhanyakha7" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffd03" android:keyIcon="@drawable/mudhanyakha3" android:keyWidth="30%p" />
+        <Key android:codes="0xffd04" android:keyIcon="@drawable/mudhanyakha4" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0xffd05" android:keyIcon="@drawable/mudhanyakha5" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffd06" android:keyIcon="@drawable/mudhanyakha6" android:keyWidth="30%p"/>
+        <Key android:codes="0xffd07" android:keyIcon="@drawable/mudhanyakha7" android:keyWidth="30%p" />
+        <Key android:codes="0xffd08" android:keyIcon="@drawable/mudhanyakha8" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

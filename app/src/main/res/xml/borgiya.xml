@@ -8,14 +8,14 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0xf6001" android:keyIcon="@drawable/ja1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf6003" android:keyIcon="@drawable/ja3" android:keyWidth="30%p"/>
-        <Key android:codes="0xf6004" android:keyIcon="@drawable/ja4" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf6006" android:keyIcon="@drawable/ja6" android:keyWidth="30%p"  />
+        <Key android:codes="0xf6002" android:keyIcon="@drawable/ja2" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
-    <Row>
-        <Key android:codes="0xf6006" android:keyIcon="@drawable/ja6" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf6002" android:keyIcon="@drawable/ja2" android:keyWidth="30%p"/>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0xf6003" android:keyIcon="@drawable/ja3" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf6004" android:keyIcon="@drawable/ja4" android:keyWidth="30%p" />
         <Key android:codes="0xf6005" android:keyIcon="@drawable/ja5" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

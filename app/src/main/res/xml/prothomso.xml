@@ -8,11 +8,13 @@
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0xf4001" android:keyIcon="@drawable/cha1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xf4002" android:keyIcon="@drawable/cha2"  android:keyWidth="30%p"/>
-        <Key android:codes="0xf4003" android:keyIcon="@drawable/cha3"  android:keyWidth="30%p"/>
-        <Key android:codes="0xf4004" android:keyIcon="@drawable/cha4"  android:keyWidth="30%p"/>
+        <Key android:codes="0xf4003" android:keyIcon="@drawable/cha3"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="0xf4004" android:keyIcon="@drawable/cha4"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
         <Key android:codes="0xf4005" android:keyIcon="@drawable/cha5"  android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

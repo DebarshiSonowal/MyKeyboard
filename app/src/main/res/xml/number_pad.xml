@@ -29,7 +29,7 @@
         <Key android:codes="0x0998" android:keyLabel="ঘ" android:popupKeyboard="@xml/gho"/>
         <Key android:codes="0x0999" android:keyLabel="ঙ" android:popupKeyboard="@xml/unga"/>
         <Key android:codes="0x099A" android:keyLabel="চ" android:popupKeyboard="@xml/prothomso" />
-        <Key android:codes="0x099B" android:keyLabel="ছ"/>
+        <Key android:codes="0x099B" android:keyLabel="ছ" />
         <Key android:codes="0x099C" android:keyLabel="জ" android:popupKeyboard="@xml/borgiya"/>
         <Key android:codes="0x099D" android:keyLabel="ঝ"/>
         <Key android:codes="0x099E" android:keyLabel="ঞ" android:popupKeyboard="@xml/nyo" android:keyEdgeFlags="right"/>
@@ -73,16 +73,14 @@
         <Key android:codes="-5" android:keyIcon="@drawable/ic_label"  android:keyWidth="30%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="173"  android:keyLabel="১২৩" android:keyWidth="30%p" android:popupKeyboard="@xml/numbers" android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel="," android:popupKeyboard="@xml/brackets"/>
-        <Key android:codes="0x09BE" android:keyLabel="া" android:popupKeyboard="@xml/specialassamese" />
+        <Key android:codes="173"  android:keyLabel="১২৩.." android:keyWidth="40%p" android:popupKeyboard="@xml/numbers" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel=",.." android:keyWidth="40%p"  android:popupKeyboard="@xml/brackets"/>
+        <Key android:codes="0x09BE" android:keyLabel="া.." android:keyWidth="40%p"  android:popupKeyboard="@xml/specialassamese" />
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="80%p" android:isRepeatable="true"/>
-        <Key android:codes="0x2014" android:keyLabel="—" android:popupKeyboard="@xml/spec" android:popupCharacters="—–"/>
-        <Key android:codes="0x09CD" android:keyLabel="্" android:popupKeyboard="@xml/assamesspecial" />
-        <Key android:codes="0x09F7" android:keyLabel="৷" android:popupKeyboard="@xml/marks"/>
+        <Key android:codes="0x2014" android:keyLabel="–" android:keyWidth="40%p"  android:popupKeyboard="@xml/start"/>
+        <Key android:codes="0x09CD" android:keyLabel="্.." android:keyWidth="40%p"  android:popupKeyboard="@xml/assamesspecial" />
+        <Key android:codes="0x09F7"  android:keyIcon="@drawable/dari" android:keyWidth="40%p"  android:popupKeyboard="@xml/marks"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="40%p" android:keyEdgeFlags="right"/>
     </Row>
-
-
 
 </Keyboard>
