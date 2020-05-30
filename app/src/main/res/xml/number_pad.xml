@@ -77,7 +77,7 @@
         <Key android:codes="44" android:keyLabel=",.." android:keyWidth="40%p"  android:popupKeyboard="@xml/brackets"/>
         <Key android:codes="0x09BE" android:keyLabel="া.." android:keyWidth="40%p"  android:popupKeyboard="@xml/specialassamese" />
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="80%p" android:isRepeatable="true"/>
-        <Key android:codes="0x2014" android:keyLabel="–" android:keyWidth="40%p"  android:popupKeyboard="@xml/start"/>
+        <Key android:codes="0x2013" android:keyLabel="–" android:keyWidth="40%p"  android:popupKeyboard="@xml/start"/>
         <Key android:codes="0x09CD" android:keyLabel="্.." android:keyWidth="40%p"  android:popupKeyboard="@xml/assamesspecial" />
         <Key android:codes="0x09F7"  android:keyIcon="@drawable/dari" android:keyWidth="40%p"  android:popupKeyboard="@xml/marks"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="40%p" android:keyEdgeFlags="right"/>

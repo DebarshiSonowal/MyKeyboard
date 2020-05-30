@@ -7,6 +7,6 @@
     android:theme="@style/AppTheme">
     <Row>
         <Key android:codes="0x2013" android:keyLabel="–" android:keyEdgeFlags="left"/>
-        <Key android:codes="0x2014" android:keyLabel="–" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x2014" android:keyLabel="—" android:keyEdgeFlags="left"/>
     </Row>
 </Keyboard>
