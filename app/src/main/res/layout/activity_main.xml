@@ -60,8 +60,8 @@
 
     <ImageButton
         android:id="@+id/savebtn"
-        android:layout_width="62dp"
-        android:layout_height="60dp"
+        android:layout_width="46dp"
+        android:layout_height="47dp"
         android:background="#00FFFFFF"
         android:contentDescription="Save"
         android:elevation="10dp"
@@ -77,8 +77,8 @@
 
     <ImageButton
         android:id="@+id/cpybtn"
-        android:layout_width="80dp"
-        android:layout_height="65dp"
+        android:layout_width="66dp"
+        android:layout_height="51dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#00FFFFFF"
         android:elevation="10dp"
@@ -93,46 +93,47 @@
 
     <ImageButton
         android:id="@+id/listbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
         android:background="#00FFFFFF"
         android:elevation="10dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/guideline26"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline29"
-        app:layout_constraintVertical_bias="0.659"
+        app:layout_constraintVertical_bias="0.413"
         app:srcCompat="@drawable/ic_files_and_folders" />
 
     <ImageButton
         android:id="@+id/Setting"
-        android:layout_width="59dp"
-        android:layout_height="55dp"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
         android:elevation="10dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/guideline26"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline29"
-        app:layout_constraintVertical_bias="0.695"
+        app:layout_constraintVertical_bias="0.405"
         app:srcCompat="@drawable/ic_tools_and_utensils" />
 
     <ImageButton
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
         android:background="#00FFFFFF"
         android:elevation="10dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/guideline26"
         app:layout_constraintEnd_toStartOf="@+id/guideline20"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline29"
-        app:layout_constraintVertical_bias="0.659"
+        app:layout_constraintVertical_bias="0.43"
         app:srcCompat="@drawable/ic_document" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -168,7 +169,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.82" />
+        app:layout_constraintGuide_percent="0.81" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline27"
@@ -189,7 +190,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.66" />
+        app:layout_constraintGuide_percent="0.63" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

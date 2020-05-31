@@ -4,6 +4,7 @@ import android.content.Context;
 
 import android.content.Intent;
 import android.database.Cursor;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +19,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     private  LayoutInflater mLayoutInflater;
 private String name,date;
     private Cursor mCursor;
-    long id;
+
     private Context mContext;
 
     public Adapter(Context context,Cursor cursor) {
@@ -44,22 +45,25 @@ private String name,date;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull Adapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final Adapter.ViewHolder holder, final int position) {
         if(!mCursor.moveToPosition(position)){
             return;
         }
         name = mCursor.getString(mCursor.getColumnIndex(Contract.NOTEPAD.COLUMN_NAME));
         date = mCursor.getString(mCursor.getColumnIndex(Contract.NOTEPAD.COLUMN_TIME));
-       id = mCursor.getLong(mCursor.getColumnIndex(Contract.NOTEPAD._ID));
+        long id = mCursor.getLong(mCursor.getColumnIndex(Contract.NOTEPAD._ID));
         holder.title.setText(name);
         holder.date.setText(date);
         holder.itemView.setTag(id);
+        Log.d("ID",id+"");
         holder.mConstraintLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContext,edit_data.class);
-                intent.putExtra("id",String.valueOf(id));
+                intent.putExtra("id",String.valueOf(holder.itemView.getTag()));
+                Log.d("ID",holder.itemView.getTag()+"");
                 mContext.startActivity(intent);
+
             }
         });
     }
