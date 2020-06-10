@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xf6001" android:keyIcon="@drawable/ja1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf6006" android:keyIcon="@drawable/ja6" android:keyWidth="30%p"  />
-        <Key android:codes="0xf6002" android:keyIcon="@drawable/ja2" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf6001" android:keyIcon="@drawable/ja1" android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf6006" android:keyIcon="@drawable/ja6"  />
+        <Key android:codes="0xf6002" android:keyIcon="@drawable/ja2" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="0xf6003" android:keyIcon="@drawable/ja3" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf6004" android:keyIcon="@drawable/ja4" android:keyWidth="30%p" />
-        <Key android:codes="0xf6005" android:keyIcon="@drawable/ja5" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xf6003" android:keyIcon="@drawable/ja3"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf6004" android:keyIcon="@drawable/ja4"  />
+        <Key android:codes="0xf6005" android:keyIcon="@drawable/ja5"  android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

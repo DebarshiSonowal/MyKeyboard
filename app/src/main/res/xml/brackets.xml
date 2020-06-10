@@ -6,16 +6,16 @@
     android:keyHeight="50dp"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="123" android:keyIcon="@drawable/curvebracket1" android:keyEdgeFlags="left" />
-        <Key android:codes="125" android:keyIcon="@drawable/curvebracket2"/>
+        <Key android:codes="125" android:keyIcon="@drawable/curvebracket2"  />
         <Key android:codes="91" android:keyIcon="@drawable/squarebracket1"/>
         <Key android:codes="93" android:keyIcon="@drawable/squarebracket2"  android:keyEdgeFlags="right"/>
     </Row>
-    <Row>
-        <Key android:codes="95" android:keyIcon="@drawable/underscore" android:keyEdgeFlags="left"/>
-        <Key android:codes="94" android:keyLabel="^"/>
-        <Key android:codes="60" android:keyIcon="@drawable/lessthan"/>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="40" android:keyIcon="@drawable/brackets1" android:keyEdgeFlags="left"/>
+        <Key android:codes="41" android:keyIcon="@drawable/brackets2"  />
+        <Key android:codes="60" android:keyIcon="@drawable/lessthan" />
         <Key android:codes="62" android:keyIcon="@drawable/greaterthan" android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

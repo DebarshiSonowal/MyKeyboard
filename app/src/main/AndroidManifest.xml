@@ -16,11 +16,12 @@
         android:supportsRtl="true"
         android:screenOrientation="portrait"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".edit_data" />
-        <activity android:name=".Noteactivity" />
-        <activity android:name=".Main3Activity" />
+        <activity android:name=".edit_data" android:screenOrientation="portrait"  />
+        <activity android:name=".Noteactivity" android:screenOrientation="portrait"  />
+        <activity android:name=".Main3Activity" android:screenOrientation="portrait"  />
 
-        <activity android:name=".Main2Activity">
+        <activity android:name=".Main2Activity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

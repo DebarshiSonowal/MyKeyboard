@@ -1,14 +1,15 @@
 <resources>
-    <string name="app_name">Assamese Typing  </string>
+    <string name="app_name">গড়গঞা অসমীয়া  </string>
     <string name="settings">Settings</string>
     <string name="sound_on_keypress">Sound on keypress</string>
     <string name="inverted">"</string>
     <string name="greaterthan"><![CDATA[<]]></string>
     <string name="k1">ক্ক</string>
-    <string name="Copyright">Copyright © Abhijit Padun 2020 \n
-“Garhgaya Assamese” typeface designed by Abhijit Padun \n
+    <string name="Copyright">Copyright © Abhijit Padun \n
+“Garhgayan Assamese” typeface designed by Abhijit Padun \n
 Typing App developed by Debarshi Sonowal \n
         Icons made by Freepik from www.flaticon.com \n
-    Icons made by Roundicons from www.flaticon.com</string>
-    <string name="info">This Typing App renders ancient Assamese “Garhgaya” writing style as display typeface. It is an experimental project to bring back unique identity to Assamese script by recreating digital representation of ancient “Garhgaya” style.</string>
+    Icons made by Roundicons from www.flaticon.com \n
+    RidwanHardjowibowo/lottiefiles.com </string>
+    <string name="info">This Typing App renders ancient Assamese “Garhgayan” writing style as display typeface. It is an experimental project to bring back unique identity to Assamese script by recreating digital representation of ancient “Garhgayan” style.</string>
 </resources>

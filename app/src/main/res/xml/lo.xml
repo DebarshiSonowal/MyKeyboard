@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xffb01" android:keyIcon="@drawable/la1" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xffb02" android:keyIcon="@drawable/la2" android:keyWidth="30%p" />
-        <Key android:codes="0xffb03" android:keyIcon="@drawable/la3" android:keyWidth="30%p"/>
-        <Key android:codes="0xffb04" android:keyIcon="@drawable/la4" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffb01" android:keyIcon="@drawable/la1"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffb02" android:keyIcon="@drawable/la2"  />
+        <Key android:codes="0xffb03" android:keyIcon="@drawable/la3" />
+        <Key android:codes="0xffb04" android:keyIcon="@drawable/la4"  android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="0xffb05" android:keyIcon="@drawable/la5" android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xffb06" android:keyIcon="@drawable/la6" android:keyWidth="30%p" />
-        <Key android:codes="0xffb07" android:keyIcon="@drawable/la7" android:keyWidth="30%p" />
-        <Key android:codes="0xffb08"  android:keyIcon="@drawable/la8" android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xffb05" android:keyIcon="@drawable/la5"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xffb06" android:keyIcon="@drawable/la6"  />
+        <Key android:codes="0xffb07" android:keyIcon="@drawable/la7"  />
+        <Key android:codes="0xffb08"  android:keyIcon="@drawable/la8"  android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

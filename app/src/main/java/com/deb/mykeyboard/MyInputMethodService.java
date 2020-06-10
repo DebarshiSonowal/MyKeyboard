@@ -1,15 +1,22 @@
 package com.deb.mykeyboard;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.inputmethodservice.InputMethodService;
 import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 import android.media.AudioManager;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.FrameLayout;
+import android.widget.PopupWindow;
 
 public class MyInputMethodService extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
     private KeyboardView kv;
@@ -181,6 +188,9 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
 
     private Boolean volume;
     private  boolean caps = false;
+
+
+
     @Override
     public View onCreateInputView() {
         loadData();
@@ -229,8 +239,21 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
 
     @Override
     public boolean onKeyLongPress(int keyCode, KeyEvent event) {
-        return super.onKeyLongPress(keyCode, event);
-    }
+
+        switch (keyCode) {
+            case 0x0995:
+                kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard_view,null);
+                mKeyboard = new Keyboard(this, R.xml.ko);
+                kv.setKeyboard(mKeyboard);
+                kv.setOnKeyboardActionListener(this);
+                FontOverride.setDefaultFont(this, "DEFAULT", "Fonts/regular.ttf");
+                break;
+        }
+
+        return true;
+
+}
+
 
     @Override
     public void onPress(int i) {
@@ -240,6 +263,17 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     @Override
     public void onRelease(int i) {
 
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("destroy","ondestroy");
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
     }
 
     @Override
@@ -322,6 +356,9 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                     break;
                 case go7:
                     ic.commitText("গ্ল",1);
+                    break;
+                case 0xf2008:
+                    ic.commitText("গ্দ",1);
                     break;
                 case gha1:
                     ic.commitText("ঘ্ব",1);
@@ -686,6 +723,8 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
                 case khyajya:
                     ic.commitText("খ্য",1);
                     break;
+                case 0xfffffff:
+                    break;
                 default:
                     char code = (char) primatyCode;
                     if(Character.isLetter(code) && caps){
@@ -731,5 +770,6 @@ public class MyInputMethodService extends InputMethodService implements Keyboard
     public void swipeUp() {
 
     }
+
 
 }

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
-    android:keyBackground="@color/colorPrimaryDark"
+    android:keyBackground="@drawable/background"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme"
+
     >
-    <Row>
+    <Row android:rowEdgeFlags="top">
         <Key android:codes="0x0985" android:keyLabel="অ" android:keyEdgeFlags="left"/>
         <Key android:codes="0x0986"  android:keyLabel="আ"/>
         <Key android:codes="0x0987" android:keyLabel="ই"/>
@@ -23,7 +24,7 @@
         <Key android:codes="0x0994" android:keyLabel="ঔ" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="0x0995" android:keyLabel="ক"  android:popupKeyboard="@xml/ko"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0x0995" android:keyLabel="ক"  android:popupKeyboard="@xml/ko"    android:keyEdgeFlags="left"/>
         <Key android:codes="0x0996" android:keyLabel="খ" android:popupKeyboard="@xml/kho"/>
         <Key android:codes="0x0997" android:keyLabel="গ" android:popupKeyboard="@xml/ga"/>
         <Key android:codes="0x0998" android:keyLabel="ঘ" android:popupKeyboard="@xml/gho"/>
@@ -64,7 +65,6 @@
         <Key android:codes="0x09B9" android:keyLabel="হ"/>
         <Key android:codes="0x7f030004" android:keyIcon="@drawable/ic_khya_02"  android:keyWidth="30%p"  />
 <!--        <Key android:keyOutputText="ক্ষ" android:keyLabel="ক্ষ"/>-->
-
         <Key android:codes="0x09DC" android:keyLabel="ড়"/>
         <Key android:codes="0x09DD" android:keyLabel="ঢ়"/>
         <Key android:codes="0x09DF" android:keyLabel="য়"/>
@@ -74,12 +74,12 @@
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="173"  android:keyLabel="১২৩.." android:keyWidth="40%p" android:popupKeyboard="@xml/numbers" android:keyEdgeFlags="left"/>
-        <Key android:codes="44" android:keyLabel=",.." android:keyWidth="40%p"  android:popupKeyboard="@xml/brackets"/>
+        <Key android:codes="44" android:keyLabel=",.." android:keyWidth="40%p"  android:popupKeyboard="@xml/marks"/>
         <Key android:codes="0x09BE" android:keyLabel="া.." android:keyWidth="40%p"  android:popupKeyboard="@xml/specialassamese" />
         <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="80%p" android:isRepeatable="true"/>
         <Key android:codes="0x2013" android:keyLabel="–" android:keyWidth="40%p"  android:popupKeyboard="@xml/start"/>
         <Key android:codes="0x09CD" android:keyLabel="্.." android:keyWidth="40%p"  android:popupKeyboard="@xml/assamesspecial" />
-        <Key android:codes="0x09F7"  android:keyIcon="@drawable/dari" android:keyWidth="40%p"  android:popupKeyboard="@xml/marks"/>
+        <Key android:codes="0x09F7"  android:keyIcon="@drawable/dari" android:keyWidth="40%p"  android:popupKeyboard="@xml/brackets"/>
         <Key android:codes="-4" android:keyLabel="DONE" android:keyWidth="40%p" android:keyEdgeFlags="right"/>
     </Row>
 

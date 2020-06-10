@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
-    android:theme="@style/AppTheme">
+    android:keyPreviewLayout="@layout/key_preview"
+    android:theme="@style/AppTheme"
+    >
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xf0002" android:keyIcon="@drawable/ko2" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf0001" android:keyIcon="@drawable/ko1" android:keyWidth="30%p" />
-        <Key android:codes="0xf0003" android:keyIcon="@drawable/ko3" android:keyWidth="30%p"/>
-        <Key android:codes="0xf0010"  android:keyIcon="@drawable/ko10" android:keyWidth="30%p" />
-        <Key android:codes="0xf0004"  android:keyIcon="@drawable/ko4" android:keyWidth="30%p" android:keyEdgeFlags="right" />
+        <Key android:codes="0xf0002" android:keyIcon="@drawable/ko2"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf0001" android:keyIcon="@drawable/ko1"  android:keyEdgeFlags="right" />
     </Row>
-    <Row android:rowEdgeFlags="bottom" >
-        <Key android:codes="0xf0005" android:keyIcon="@drawable/ko5" android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xf0006"  android:keyIcon="@drawable/ko6" android:keyWidth="30%p"/>
-        <Key android:codes="0xf0008" android:keyIcon="@drawable/ko8" android:keyWidth="30%p"/>
-        <Key android:codes="0xf0007" android:keyIcon="@drawable/ko7" android:keyWidth="30%p"/>
-        <Key android:codes="0xf0009" android:keyIcon="@drawable/ko9" android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
+    <Row >
+        <Key android:codes="0xf0003" android:keyIcon="@drawable/ko3"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf0010"  android:keyIcon="@drawable/ko10" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0xf0004"  android:keyIcon="@drawable/ko4"  android:keyEdgeFlags="left" />
+        <Key android:codes="0xf0005" android:keyIcon="@drawable/ko5"   android:keyEdgeFlags="right"/>
+
+    </Row>
+    <Row>
+        <Key android:codes="0xf0006"  android:keyIcon="@drawable/ko6"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf0008" android:keyIcon="@drawable/ko8"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="0xf0007" android:keyIcon="@drawable/ko7"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xf0009" android:keyIcon="@drawable/ko9"  android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xfd001" android:keyIcon="@drawable/da1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfd002" android:keyIcon="@drawable/da2"  android:keyWidth="30%p" />
-        <Key android:codes="0xfd003" android:keyIcon="@drawable/da3"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfd004" android:keyIcon="@drawable/da4"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfd001" android:keyIcon="@drawable/da1"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfd002" android:keyIcon="@drawable/da2"   />
+        <Key android:codes="0xfd003" android:keyIcon="@drawable/da3"  />
+        <Key android:codes="0xfd004" android:keyIcon="@drawable/da4"   android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="0xfd005" android:keyIcon="@drawable/da5"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfd006" android:keyIcon="@drawable/da6"  android:keyWidth="30%p"  />
-        <Key android:codes="0xfd007" android:keyIcon="@drawable/da7"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
-
+        <Key android:codes="0xfd005" android:keyIcon="@drawable/da5"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfd006" android:keyIcon="@drawable/da6"    />
+        <Key android:codes="0xfd007" android:keyIcon="@drawable/da7"   android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

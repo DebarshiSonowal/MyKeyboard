@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    >
+    <android.inputmethodservice.KeyboardView
+        android:id="@android:id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:keyPreviewLayout="@layout/key_preview"
+        android:background="@color/colorPrimary"
+        android:keyBackground="@drawable/background"
+        android:keyTextColor="#fff"
+        android:keyTextSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:keyboardNavigationCluster="true"
+        android:hapticFeedbackEnabled="true"/>
+
+    <ImageButton
+        android:id="@android:id/closeButton"
+        android:layout_width="22sp"
+        android:layout_height="22sp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/background"
+        android:clickable="true"
+        tools:srcCompat='@drawable/ic_cerrar' />
+</LinearLayout>

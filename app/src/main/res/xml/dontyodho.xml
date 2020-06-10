@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
+
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row>
-        <Key android:codes="0xfe001" android:keyIcon="@drawable/dha1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfe003" android:keyIcon="@drawable/dha3"  android:keyWidth="30%p" />
-        <Key android:codes="0xfe002" android:keyIcon="@drawable/dha2"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfe004" android:keyIcon="@drawable/dha4"  android:keyWidth="30%p"  android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfe001" android:keyIcon="@drawable/dha1"  android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfe003" android:keyIcon="@drawable/dha3"   />
+        <Key android:codes="0xfe002" android:keyIcon="@drawable/dha2"  />
+        <Key android:codes="0xfe004" android:keyIcon="@drawable/dha4"    android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

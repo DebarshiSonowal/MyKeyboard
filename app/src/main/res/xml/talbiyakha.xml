@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
-    android:keyHeight="60dp"
+    android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme">
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xfff01" android:keyIcon="@drawable/talbiyakha1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfff02" android:keyIcon="@drawable/talbiyakha2"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff03" android:keyIcon="@drawable/talbiyakha3"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff04" android:keyIcon="@drawable/talbiyakha4"  android:keyWidth="30%p" />
-        <Key android:codes="0xfff06" android:keyIcon="@drawable/talabiyakha6"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
-
+        <Key android:codes="0xfff01" android:keyIcon="@drawable/talbiyakha1"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfff02" android:keyIcon="@drawable/talbiyakha2"  />
+        <Key android:codes="0xfff03" android:keyIcon="@drawable/talbiyakha3"   android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="0xfff04" android:keyIcon="@drawable/talbiyakha4"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfff06" android:keyIcon="@drawable/talabiyakha6"  />
+        <Key android:codes="0xfff05" android:keyIcon="@drawable/talbiyakha5"     android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <Key android:codes="0xfff05" android:keyIcon="@drawable/talbiyakha5"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfff07" android:keyIcon="@drawable/talbiyakha7"  android:keyWidth="30%p" />
-        <Key android:codes="0xfff08" android:keyIcon="@drawable/talbiyakaha8"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfff09" android:keyIcon="@drawable/talbiyakha9"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfff07" android:keyIcon="@drawable/talbiyakha7"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfff08" android:keyIcon="@drawable/talbiyakaha8"  />
+        <Key android:codes="0xfff09" android:keyIcon="@drawable/talbiyakha9"   android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

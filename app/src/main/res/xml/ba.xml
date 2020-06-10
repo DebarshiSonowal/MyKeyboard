@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:keyWidth="30%p"
     android:horizontalGap="5dp"
     android:verticalGap="5dp"
     android:keyHeight="50dp"
+    android:keyWidth="20%p"
     android:background="@color/colorPrimary"
     android:keyBackground="@color/colorPrimaryDark"
     android:fontFamily="@font/font1"
     android:theme="@style/AppTheme"
     >
     <Row android:rowEdgeFlags="top">
-        <Key android:codes="0xfb001" android:keyIcon="@drawable/ba1"  android:keyWidth="30%p" android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfb002"  android:keyIcon="@drawable/ba2"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfb003" android:keyIcon="@drawable/ba3"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfb004" android:keyIcon="@drawable/ba4"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfb001" android:keyIcon="@drawable/ba1"   android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfb002"  android:keyIcon="@drawable/ba2"  />
+        <Key android:codes="0xfb003" android:keyIcon="@drawable/ba3"  />
+        <Key android:codes="0xfb004" android:keyIcon="@drawable/ba4"   android:keyEdgeFlags="right"/>
     </Row>
     <Row  android:rowEdgeFlags="bottom">
-        <Key android:codes="0xfb005" android:keyIcon="@drawable/ba5"  android:keyWidth="30%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="0xfb006" android:keyIcon="@drawable/ba6"  android:keyWidth="30%p"/>
-        <Key android:codes="0xfb007" android:keyIcon="@drawable/ba7"  android:keyWidth="30%p" android:keyEdgeFlags="right"/>
+        <Key android:codes="0xfb005" android:keyIcon="@drawable/ba5"    android:keyEdgeFlags="left"/>
+        <Key android:codes="0xfb006" android:keyIcon="@drawable/ba6"  />
+        <Key android:codes="0xfb007" android:keyIcon="@drawable/ba7"   android:keyEdgeFlags="right"/>
     </Row>
 </Keyboard>

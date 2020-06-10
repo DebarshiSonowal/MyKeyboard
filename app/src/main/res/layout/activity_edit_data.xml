@@ -16,51 +16,54 @@
         android:fontFamily="@font/regular"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:scrollbars="vertical"
         android:textColor="#040404"
+        android:verticalScrollbarPosition="right"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toStartOf="@+id/guideline22"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline23"
         app:layout_constraintTop_toTopOf="@+id/guideline21"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/titleedittext"
         android:layout_width="0dp"
-        android:layout_height="59dp"
+        android:layout_height="0dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="@font/regular"
         android:inputType="textPersonName"
+        android:padding="5dp"
+        android:singleLine="true"
         android:text=""
         android:textColor="#040404"
-        android:singleLine="true"
-        app:layout_constraintBottom_toTopOf="@+id/guideline21"
+        app:layout_constraintBottom_toTopOf="@+id/guideline31"
         app:layout_constraintEnd_toStartOf="@+id/guideline22"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline23"
         app:layout_constraintTop_toTopOf="@+id/guideline25"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.206" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.68" />
+        app:layout_constraintGuide_percent="0.73" />
 
     <ImageButton
         android:id="@+id/saveeditbtn"
-        android:layout_width="69dp"
-        android:layout_height="74dp"
+        android:layout_width="49dp"
+        android:layout_height="54dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
-        app:layout_constraintVertical_bias="0.207"
+        app:layout_constraintVertical_bias="0.286"
         app:srcCompat="@drawable/ic_laptop" />
 
     <TextView
@@ -83,7 +86,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.28" />
+        app:layout_constraintGuide_percent="0.34" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline22"
@@ -105,5 +108,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
